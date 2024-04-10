@@ -1,0 +1,59 @@
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+    body{
+        background-color: lightblue;
+    
+    
+    }   
+
+ 
+ .logo {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+ }
+
+ .navbar ul li{
+    list-style: none;
+    display: inline-block ;
+    margin: 0 20px;
+    position: relative;
+}
+ 
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: 0.5s;
+
+
+}
+
+.navbar ul li :hover ::after{
+    width: 100px;
+}
+
+.h1 style{
+    text-align: left;
+    }
